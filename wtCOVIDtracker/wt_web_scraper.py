@@ -50,10 +50,10 @@ driver = webdriver.Chrome(PATH)
 wt_page = driver.get(base_url)
 # num = driver.find_element_by_xpath("/html/body/main/div[1]/div/div[1]/div[3]/div/div/p[4]/strong/u[0]")
 username_input = driver.find_element_by_id('username')
-username_input.send_keys('lf1015417')
+username_input.send_keys('********')
 
 password = driver.find_element_by_id('password')
-password.send_keys('L@nc3G0rd0n22!')
+password.send_keys('*****************')
 sign_in_button = driver.find_element_by_name('submit')
 sign_in_button.click()
 
